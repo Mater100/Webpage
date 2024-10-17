@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#sakk_tabla {
+    display: grid;
+    grid-template-columns: repeat(8, 60px);
+    grid-template-rows: repeat(8, 60px);
+    gap: 2px;
+    margin-top: 20px;
+    border: 10px solid black;
+}
+
+.cella {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    font-size: 36px;
+    cursor: pointer;
+}
+
+.feher {
+    background-color: #ffd38b;
+}
+
+.fekete {
+    background-color: #472000;
+}
+
+.kijelolt {
+    background-color: white;
+}
